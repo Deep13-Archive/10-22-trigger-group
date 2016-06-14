@@ -1,0 +1,16 @@
+<Definition id="gfx attributes">
+
+  <!--
+
+  work in progress : rendering attributes for vertices / polygons
+
+  -->
+  <Trait id="gfx.trait.attr.standard">
+    <Link to="gfx.attr.normal"/>
+    <Link to="gfx.attr.uv"/>
+    <Link to="gfx.attr.rgba"/>
+  </Trait>
+
+  <Type id="gfx.type.attr.standard" trait="gfx.trait.attr.standard"/>
+
+</Definition>
